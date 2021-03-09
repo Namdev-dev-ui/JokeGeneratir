@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  background-color: rgb(14, 3, 26);
+  margin: 0;
+  font-family:sans-serif;
+}
+
+#root{
+  align-items: center;
+  display:flex;
+  min-height:100vh;
+  justify-content: center;
+  min-height: 100vh;
+}
+.Box{
+  background-color: white;
+  box-shadow:3px 3px 5px rgba(0,0,0,0.2) ;
+  padding: 2rem;
+  border-radius: 10px;
+ 
+  text-align: center;
+}
+.Box>h2{
+  margin-top: 0;
+}
+.Box>p{
+  margin: 2rem;
+}
+.Box >a{
+  padding-bottom: 100vh;
+}
+.Box button{
+  background-color: black;
+  border: 0;
+  color: white;
+  border-radius: 3px;
+  box-shadow:3px 3px 5px rgba(0,0,0,0.2) ;
+  padding: 0.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.Box button:active{
+transform: scale(0.98);
+outline: none ease-in;
+}
+.Box button:focus{
+  outline: none;
+}
